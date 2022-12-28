@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+    let mochila = []
+    let pos
+
+    mochila.push('Faca')
+    mochila.push('Espada')
+    mochila.push('Picareta')
+    mochila.push('Machado')
+    mochila.push('Enchada')
+    mochila.push('Diamante')
+    
+    pos = mochila.indexOf('Diamante')
+
+    if(pos < 0){
+        document.write('O item não esta na mochila.<br>')
+    }else{
+        document.write(`O item esta na mochila na posição ${pos}`)
+    }
+
+    </script>
+</body>
+</html>
